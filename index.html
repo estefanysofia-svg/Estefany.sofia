@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FoodApp - Seu Delivery Favorito</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>🍔 FoodApp</h1>
+    <p>Peça dos melhores restaurantes perto de você!</p>
+    <div class="login-area">
+      <input type="text" id="username" placeholder="Usuário">
+      <input type="password" id="password" placeholder="Senha">
+      <button onclick="fazerLogin()">Login</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="restaurantes">
+      <h2>🍽️ Restaurantes Parceiros</h2>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1" alt="Restaurante Italiano">
+        <h3>La Bella Massa</h3>
+        <p>Culinária italiana tradicional.</p>
+        <button onclick="verCardapio('italiano')">Ver Cardápio</button>
+        <button onclick="fazerPedido('La Bella Massa')">Pedir Agora</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Restaurante Japonês">
+        <h3>Sushi Zen</h3>
+        <p>O melhor da comida japonesa.</p>
+        <button onclick="verCardapio('japones')">Ver Cardápio</button>
+        <button onclick="fazerPedido('Sushi Zen')">Pedir Agora</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1571091655789-15d4a6b32d52" alt="Hamburgueria">
+        <h3>Burger Town</h3>
+        <p>Hambúrguer artesanal com ingredientes frescos.</p>
+        <button onclick="verCardapio('hamburguer')">Ver Cardápio</button>
+        <button onclick="fazerPedido('Burger Town')">Pedir Agora</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1529692236671-f1dc85b2482d" alt="Restaurante Vegano">
+        <h3>Green Life</h3>
+        <p>Opções 100% veganas e saudáveis.</p>
+        <button onclick="verCardapio('vegano')">Ver Cardápio</button>
+        <button onclick="fazerPedido('Green Life')">Pedir Agora</button>
+      </div>
+    </section>
+
+    <section id="cardapio" class="cardapio hidden">
+      <h2>📋 Cardápio</h2>
+      <ul id="itens-cardapio">
+        <!-- Itens do cardápio aparecem aqui -->
+      </ul>
+      <button onclick="fecharCardapio()">Fechar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FoodApp. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
