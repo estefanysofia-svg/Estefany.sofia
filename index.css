@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f1f0ff;
-  color: #4134f001;
+  background-color: #f5f0f0;
+  color: #0a0a0ab5;
 }
 
 header {
   background-color: #112fc6dd;
-  color: rgba(245, 247, 252, 0.852);
+  color: rgba(7, 7, 7, 0.982);
   padding: 20px;
   text-align: center;
 }
@@ -50,9 +50,9 @@ header {
 }
 
 .card {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(239, 239, 241, 0.877);
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(15, 0, 146, 0.434);
   padding: 20px;
   margin: 20px auto;
   max-width: 400px;
@@ -73,7 +73,7 @@ header {
   margin: 5px;
   padding: 10px 15px;
   background-color: #008cff;
-  color: rgb(255, 255, 255);
+  color: rgb(104, 101, 101);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -86,18 +86,18 @@ header {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #222;
-  color: rgb(255, 255, 255);
+  background-color: #ece1e1;
+  color: rgb(18, 17, 19);
 }
 
 /* Cardápio */
 .cardapio {
-  background-color: white;
+  background-color: rgba(250, 249, 252, 0.495);
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   border-left: 5px solid #0073ff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(55, 2, 247, 0.815);
 }
 
 .cardapio ul {
@@ -107,12 +107,12 @@ footer {
 
 .cardapio ul li {
   padding: 10px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #1e049089;
 }
 
 .cardapio button {
   margin-top: 15px;
-  background-color: #ccc;
+  background-color: hsl(249, 91%, 54%);
   color: #333;
 }
 
